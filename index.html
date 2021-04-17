@@ -14,9 +14,9 @@
 <body>
 
     <!-- Navigation site -->
-    <header class="header white-background">
-        <div class="main-nav container">    
-            <nav class="">
+    <header class="header">
+        <div class="container">    
+            <nav class="main-nav">
                 <a class="logo-header" href="/"><span class="colortext">Web</span>Studio</a>
                 <ul class="site-nav list">
                     <li class="main-item"><a class="link current" href="">Студия</a></li>
@@ -33,13 +33,15 @@
    
     <main>
         <!-- Hero -->
-        <section class="hero container">
+        <section class="hero">
+            <div class="container">
             <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
             <button class="button-order" type="button">Заказать услугу</button>
+            </div>
         </section>
 
         <!--Features-->
-        <section>
+        <section class="feature">
             <div class="container">
                 <h2 class="hiden-title">Особенности</h2>
                 <ul class="feature-list list">
@@ -64,40 +66,62 @@
         </section>
 
         <!--We do-->
-        <section class="container">
+        <section class="we-do">
+            <div class="container">
             <h2 class="section-title">Чем мы занимаемся</h2>
-            <ul class="we-do list">
+            <ul class="list">
                 <li class="item"><img src="./images/work1.jpg" width="370" height="294" alt="Работа на планшете" /></li>
                 <li class="item"><img src="./images/work2.jpg" width="370" height="294" alt="Работа на телефоне" /></li>
                 <li class="item"><img src="./images/work3.jpg" width="370" height="294" alt="Барбер на ноутбуке" /></li>
             </ul>
+            </div>
         </section>
-        <!--Наша команда-->
-        <section class="second-bg-color container">
+
+        <!-- OUR TEAM -->
+        <section class="team">
+            <div class="container">
             <h2 class="section-title">Наша команда</h2>
             <ul class="list">
-                <li>
-                    <img src="./images/staff1.jpg" width="270" height="260" alt="Член команды 1" />
-                    <h3 class="team-name">Игорь Демьяненко</h3>
-                    <p class="profession-text" lang="en">Product Designer</p>
+                <li class="item">
+                    <div class="border">
+                        <img src="./images/staff1.jpg" width="270" height="260" alt="Член команды 1" />
+                        <div class="team__box">
+                        <h3 class="team-name">Игорь Демьяненко</h3>
+                        <p class="profession-text" lang="en">Product Designer</p>
+                        </div>
+                    </div>
                 </li>
-                <li>
-                    <img src="./images/staff2.jpg" width="270" height="260" alt="Член команды 2" />
-                    <h3 class="team-name">Ольга Репина</h3>
-                    <p class="profession-text" lang="en">Frontend Developer</p>
+                <li class="item">
+                    <div class="border">
+                        <img src="./images/staff2.jpg" width="270" height="260" alt="Член команды 2" />
+                        <div class="team__box">
+                        <h3 class="team-name">Ольга Репина</h3>
+                        <p class="profession-text" lang="en">Frontend Developer</p>
+                        </div>
+                    </div>
                 </li>
-                <li>
-                    <img src="./images/staff3.jpg" width="270" height="260" alt="Член команды 3" />
-                    <h3 class="team-name">Николай Тарасов</h3>
-                    <p class="profession-text" lang="en">Marketing</p>
+                <li class="item">
+                    <div class="border">
+                        <img src="./images/staff3.jpg" width="270" height="260" alt="Член команды 3" />
+                        <div class="team__box">
+                        <h3 class="team-name">Николай Тарасов</h3>    
+                        <p class="profession-text" lang="en">Marketing</p>
+                        </div>
+                    </div>
                 </li>
-                <li>
-                    <img src="./images/staff4.jpg" width="270" height="260" alt="Член команды 4" />
-                    <h3 class="team-name">Михаил Ермаков</h3>
-                    <p class="profession-text" lang="en">UI Designer</p>
+                <li class="item">
+                    <div class="border">
+                        <img src="./images/staff4.jpg" width="270" height="260" alt="Член команды 4" />
+                        <div class="team__box">
+                        <h3 class="team-name">Михаил Ермаков</h3>
+                        <p class="profession-text" lang="en">UI Designer</p>
+                        </div>
+                    </div>
                 </li>
             </ul>
+            </div>
         </section>
+        
     </main>
     
     

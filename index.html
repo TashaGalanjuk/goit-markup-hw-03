@@ -12,60 +12,68 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+
     <!-- Navigation site -->
-    <header class="white-background">
-        <nav>
-            <a class="logo-header" href="/"><span class="colortext">Web</span>Studio</a>
-            <ul class="site-nav list">
-                <li><a class="link current" href="">Студия</a></li>
-                <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="link" href="">Контакты</a></li>
+    <header class="header white-background">
+        <div class="main-nav container">    
+            <nav class="">
+                <a class="logo-header" href="/"><span class="colortext">Web</span>Studio</a>
+                <ul class="site-nav list">
+                    <li class="main-item"><a class="link current" href="">Студия</a></li>
+                    <li class="main-item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="main-item"><a class="link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="auth-nav list">
+                <li class="main-item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="main-item"><a class="link" href="tell:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="list">
-            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link" href="tell:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
+   
     <main>
         <!-- Hero -->
-        <section class="hero">
+        <section class="hero container">
             <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
             <button class="button-order" type="button">Заказать услугу</button>
         </section>
+
         <!--Features-->
-        <section class="">
-            <h2 class="hiden-title">Особенности</h2>
-            <ul class="list">
-                <li>
+        <section>
+            <div class="container">
+                <h2 class="hiden-title">Особенности</h2>
+                <ul class="feature-list list">
+                    <li class="item">
                     <h3 class="feature-title">Внимание к деталям</h3>
                     <p class="paragraf-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li>
+                    </li>
+                    <li class="item">
                     <h3 class="feature-title">Пунктуальность</h3>
                     <p class="paragraf-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li>
+                    </li>
+                    <li class="item">
                     <h3 class="feature-title">Планирование</h3>
                     <p class="paragraf-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li>
+                    </li>
+                    <li class="item">
                     <h3 class="feature-title">Современные технологии</h3>
                     <p class="paragraf-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <!--Чем мы занимаемся-->
-        <section class="">
+
+        <!--We do-->
+        <section class="container">
             <h2 class="section-title">Чем мы занимаемся</h2>
-            <ul class="list">
-                <li><img src="./images/work1.jpg" width="370" height="294" alt="Работа на планшете" /></li>
-                <li><img src="./images/work2.jpg" width="370" height="294" alt="Работа на телефоне" /></li>
-                <li><img src="./images/work3.jpg" width="370" height="294" alt="Барбер на ноутбуке" /></li>
+            <ul class="we-do list">
+                <li class="item"><img src="./images/work1.jpg" width="370" height="294" alt="Работа на планшете" /></li>
+                <li class="item"><img src="./images/work2.jpg" width="370" height="294" alt="Работа на телефоне" /></li>
+                <li class="item"><img src="./images/work3.jpg" width="370" height="294" alt="Барбер на ноутбуке" /></li>
             </ul>
         </section>
         <!--Наша команда-->
-        <section class="second-bg-color">
+        <section class="second-bg-color container">
             <h2 class="section-title">Наша команда</h2>
             <ul class="list">
                 <li>
@@ -92,8 +100,9 @@
         </section>
     </main>
     
+    
     <!--Контакты-->
-    <footer class="dark-background">
+    <footer class="dark-background container">
         <a class="logo-footer" href="/"><span class="colortext">Web</span>Studio</a>
         <address class="address">
             <ul class="list">
@@ -110,6 +119,7 @@
             </ul>
         </address>
     </footer>
+    
 </body>
 
 </html>
